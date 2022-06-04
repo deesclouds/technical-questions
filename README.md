@@ -2,6 +2,7 @@
 
 This is a bank of all the behavioral and interview questions to practice for the interview. 
 
+![two people seated for an interview](https://i.ibb.co/jDzc5KG/pexels-cottonbro-9400312.jpg)
 
 ## How It's Made:
 All of interview questions in this repository were written in markdown.
