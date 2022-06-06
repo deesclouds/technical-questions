@@ -8,7 +8,7 @@
 - **Example:** The latest version of HTML is HTML 5, and we should add the doctype for that version on the first line of our index.html file with <!DOCTYPE html>.
 
 - [x] How do you serve a page with content in multiple languages?
-- **Explanation:** A page can be served content in a different language by modifying the lang attribute.
+- **Explanation:** A page can be served content in a different language by modifying the lang attribute, metadata and content-language http header.
 - **Use:** There are two ways a page can be served content in multiple languages. One way is by modifying the lang attribute within the html document. Another way is by adding the google translate button to the page.
 - **Example:** To change the lang attribute within the opening html tag we can set the language to english <html lang="en">. Then adding different languages within the html document within a span tag <span lang="fr">Bonjour</span>. To add a google translate button the page is by adding a div element, adding the google translate api reference and then add the Javascript function. <div id="google_translate_element"></div> , <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> , <script type="text/javascript"> function googleTranslateElementInit() { new google.translate.TranslateElement ({pageLanguage: 'en'}, google_translate_element'); 
 }</script>
