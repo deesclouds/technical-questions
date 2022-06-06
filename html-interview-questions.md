@@ -14,9 +14,9 @@
 }</script>
 
 - [x] What kind of things must you be wary of when designing or developing for multilingual sites?
-- **Explanation:**
-- **Use:**
-- **Example:**
+- **Explanation:** Using a default language based on location of the user, color choices, having set character counts, formatting dates, currencies  and the direction languages are read.
+- **Use:**  Providing a simple way for a user to change their location and language. Having an understanding of how colors are perceived in other cultures. Using template strings with parameter substitution for each language. Language reading direction. 
+- **Example:** Users may be located in a location and are not able to speak the native language fluently so a user should be provided with an easy way of changing the language and origin if needed. Some cultures like China perceive the color red as good luck while in the US the color red can be perceived as danger. Some parts of the world have different formatting for currencies, dates (ie. June 05, 2022 vs 05 June 2022). Using template strings for each language would avoid breaking if there's a different order for how the sentences are formed. Languages like Japanese and Arabic are read from right to left while in the English language words are read from left to right. 
 
 - [x] What are data- attributes good for?
 - **Explanation:**
