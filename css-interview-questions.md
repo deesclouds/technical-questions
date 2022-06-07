@@ -2,7 +2,7 @@
 
 ## Questions:
 
-- [x] What is a CSS selectior specificity and how does it work?
+- [x] What is a CSS selector specificity and how does it work?
 - **Explanation:**
 - **Use:**
 - **Example:**
@@ -27,7 +27,7 @@
 - **Use:**
 - **Example:**
 
-- [x] What are the vatious clearing techniques and which is approproiate for what context?
+- [x] What are the various clearing techniques and which is appropriate for what context?
 - **Explanation:**
 - **Use:**
 - **Example:**
@@ -77,12 +77,12 @@
 - **Use:**
 - **Example:**
 
-- [x] What are the advantages/disadvantages of using CSS preprocessors?
+- [x] What are the advantages/disadvantages of using CSS preprocessor?
 - **Explanation:**
 - **Use:**
 - **Example:**
 
-- [x] Describe what you like and dislike about the CSS preprocessors you have used?
+- [x] Describe what you like and dislike about the CSS preprocessor you have used?
 - **Explanation:**
 - **Use:**
 - **Example:**
@@ -127,7 +127,7 @@
 - **Use:**
 - **Example:**
 
-- [x] What exisiting CSS frameworks have you used locally, or in production? How would you change/ improve them?
+- [x] What existing CSS frameworks have you used locally, or in production? How would you change/ improve them?
 - **Explanation:**
 - **Use:**
 - **Example:**
@@ -137,7 +137,7 @@
 - **Use:**
 - **Example:**
 
-- [x] Can you explain the difference between coding a website to be responsive versus using a mobile-first stategy?
+- [x] Can you explain the difference between coding a website to be responsive versus using a mobile-first strategy?
 - **Explanation:**
 - **Use:**
 - **Example:**
@@ -152,7 +152,7 @@
 - **Use:**
 - **Example:**
 
-- [x] Is there any reason you'd want to use translate() isntead of absolute positiong, or vice-versa? And why?
+- [x] Is there any reason you'd want to use translate() instead of absolute positioning, or vice-versa? And why?
 - **Explanation:**
 - **Use:**
 - **Example:**
