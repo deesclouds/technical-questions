@@ -3,9 +3,9 @@
 ## Questions:
 
 - [x] What is a CSS selector specificity and how does it work?
-- **Explanation:**
-- **Use:**
-- **Example:**
+- **Explanation:** A CSS selector specificity determines which CSS elements are applied based on the specificity level of the individual selectors.
+- **Use:** When an element's styling conflicts, specificity is taken into account and helps control which styles are applied to the HTML element. 
+- **Example:** An example would be applying a higher specificity like another class or ID to target an individual element..
 
 - [x] What's the difference between "resetting" and normalizing CSS? Which would you choose, and why?
 - **Explanation:**
