@@ -3,7 +3,7 @@
 ## Questions:
 
 - [x] What does a doctype do?
-- **Explantaion:** A doctype tells our browser what version of HTML we should use to render a HTML document.
+- **Explanation:** A doctype tells our browser what version of HTML we should use to render a HTML document.
 - **Use:** Every HTML document starts with a doctype declaration.
 - **Example:** The latest version of HTML is HTML 5, and we should add the doctype for that version on the first line of our index.html file with <!DOCTYPE html>.
 
