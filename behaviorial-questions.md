@@ -22,7 +22,7 @@
 - **Action:**
 - **Result:**
 
-- [x] Give me an examle of a time you had to take a creative and unusual approach to solve a coding problem. How did this idea come to you mind? Why do you think it was unusual?
+- [x] Give me an example of a time you had to take a creative and unusual approach to solve a coding problem. How did this idea come to you mind? Why do you think it was unusual?
 - **Cause:**
 - **Action:**
 - **Result:**
@@ -57,7 +57,7 @@
 - **Action:**
 - **Result:**
 
-- [x] Describe a situation when you worked effectively under pressure. How did you feel when working under pressure? What was goining on, and how did you get through it?
+- [x] Describe a situation when you worked effectively under pressure. How did you feel when working under pressure? What was going on, and how did you get through it?
 - **Cause:**
 - **Action:**
 - **Result:**
