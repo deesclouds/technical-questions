@@ -128,9 +128,9 @@
 - **Example:**
 
 - [x] What is the difference between == and ===?
-- **Explain:**
-- **Use:**
-- **Example:**
+- **Explain:** These both are comparison operators. 
+- **Use:** The one with two equal signs are for value and the three equal signs are used for value and type.
+- **Example:** 3 == '3' would return True 3 === '3' would return false
 
 - [x] Explain the same-origin policy with regards to Javascript.
 - **Explain:**
