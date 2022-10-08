@@ -53,26 +53,26 @@
 sessionStorage would be used on a public device or guest account. cookie use would be a user not having to login again when returning to a website. 
 
 
-- [x] Describe the difference between <script>, <script async> and <script defer>.
-- **Explanation:** <script> is tag used to insert a Javascript file to a page.
- <script async> runs in the background and runs when ready. 
- <script defer> only executes.
+- [x] Describe the difference between script, script async and script defer.
+- **Explanation:** script is tag used to insert a Javascript file to a page.
+ script async runs in the background and runs when ready. 
+ script defer only executes.
 
 - **Use:** we use the script tag when we need to inject js. 
-<script async> is used when need to wait for something to respond and bring back information. script def is used when we need the whole DOM
+script async is used when need to wait for something to respond and bring back information. script def is used when we need the whole DOM
 
 - **Example:** script used for adding animations and behavior.
-<script async> tag we use for google analytics or api
-<script defer> if we want the content to show up immediately 
+script async tag we use for google analytics or api.
+script defer if we want the content to show up immediately. 
 
 - [x] Why is it generally a good idea to position CSS <link>s between <head></head> and JS <script>s just before </body>? Do you know any exceptions?
 
-- **Explanation:** so that the html and css renders first and the javascript then can render the DOM.
-The exception would be if we worked Amazon and would lose millions of dollars on slow page load we would remove the body and head tags since they are optional.
+- **Explanation:** so that the HTML and CSS renders first and the Javascript then can render the DOM. 
+The exception would be if we worked Amazon and would lose millions of dollars on slow page load we would remove the <body> and <head> tags since they are optional.
 
 - **Use:** to provide a great user experience and a faster page load to also provide a lower bounce rate. 
 
-- **Example:** google site 
+- **Example:** Google's Site 
 
 - [x] What is progressive rendering?
 
