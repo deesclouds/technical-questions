@@ -14,5 +14,5 @@
 
 - [x] Do you have any questions or concerns about my qualifications?
 
-Helpful list of other reverse interview quesions:
+Helpful list of other reverse interview questions:
 [https://github.com/viraptor/reverse-interview]
