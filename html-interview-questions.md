@@ -16,8 +16,12 @@
 
 - **Use:** There are two ways a page can be served content in multiple languages. One way is by modifying the lang attribute within the html document. Another way is by adding the google translate button to the page.
 
-- **Example:** To change the lang attribute within the opening html tag we can set the language to english <html lang="en">. Then adding different languages within the html document within a span tag <span lang="fr">Bonjour</span>. To add a google translate button the page is by adding a div element, adding the google translate api reference and then add the Javascript function. <div id="google_translate_element"></div> , <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> , <script type="text/javascript"> function googleTranslateElementInit() { new google.translate.TranslateElement ({pageLanguage: 'en'}, google_translate_element'); 
+- **Example:** To change the lang attribute within the opening html tag we can set the language to english <html lang="en">. Then adding different languages within the html document within a span tag <span lang="fr">Bonjour</span>. To add a google translate button the page is by adding a div element, adding the google translate api reference and then add the Javascript function. 
+
+```
+<div id="google_translate_element"></div> , <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> , <script type="text/javascript"> function googleTranslateElementInit() { new google.translate.TranslateElement ({pageLanguage: 'en'}, google_translate_element'); 
 }</script>
+```
 
 - [x] What kind of things must you be wary of when designing or developing for multilingual sites?
 
