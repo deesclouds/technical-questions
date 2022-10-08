@@ -90,7 +90,7 @@ The exception would be if we worked Amazon and would lose millions of dollars on
 
 - **Use:** we would use this to choose the best quality image to display to the user based on what screen and device they are using.
 
-- **Example:** older displays & smaller devices would be served smaller images while devices with retnia displays and larger devices would have larger and higher quality images
+- **Example:** older displays & smaller devices would be served smaller images while devices with retina displays and larger devices would have larger and higher quality images
 
 - [x] Have you used different HTML templating languages before?
 
@@ -99,3 +99,4 @@ The exception would be if we worked Amazon and would lose millions of dollars on
 - **Use:** to escaping content and helpful filters for manipulating data
 
 - **Example:** I've use Handlebars and EJS.
+
