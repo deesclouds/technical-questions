@@ -120,52 +120,92 @@ global: It is a global namespace. Defining a variable within this namespace make
 - **Example:** A Main Loop listens for event triggers and calls the associated event handler for that event.
 
 - [x] What is the purpose of module.exports in Node.js?
-- **Explain:** The main purpose of module. exports is to achieve modular programming
-- **Use:**
-- **Example:**
+- **Explain:** The main purpose of module. exports is to achieve modular programming. 
+- **Use:** Easy to maintain and manage the code base in different modules.
+- **Example:** Exporting Object
+Create a file named as app.js and export the object using module.exports
+```
+module.exports = {
+  name: 'GeeksforGeeks',
+  website: 'https://geeksforgeeks.org'
+}
+```
+Create a file named as index.js and import the file app.js to print the exported object data to the console.
+```
+const company = require('./app');
+  
+console.log(company.name);
+console.log(company.website);
+```
+```
+GeeksforGeeks
+https://geeksforgeeks.org
+```
 
 - [x] What is the difference between asynchronous and non-blocking?
-- **Explain:**
-- **Use:**
-- **Example:**
+- **Explain:**  
+Asynchronously means that the program may not necessarily execute line by line.
+Non-Blocking methods are executed asynchronously.
+- **Use:** Asynchronous would be used for something like emails and Non-blocking is used for making requests within queue like a playlist.
+- **Example:** 
+Asynchronous the API always returns immediately. 
+Non-blocking the answer can't be returned rapidly, the API returns immediately and stimulates a wait in an efficient way.
 
 - [x] What is tracing in Node.js?
-- **Explain:**
-- **Use:**
+- **Explain:** 
+Node.JS tracing is a module that assists in identifying and execution of the node application pattern. This helps you to monitor the application and location of data both on the function and system level. 
+- **Use:** 
+Tracing is able to monitor your node applications by closely following JavaScript entry and exit points thereby, recording time that has passed to each function. 
+-It helps to fix memory problems
+-Tracing helps you to understand better what might be slowing you down. It is able to achieve this by requesting the profiles of the CPU and memory screenshots in production.
+-It helps you identify errors that require your urgent attention
 - **Example:**
+tracing.enable()#
+Enables this Tracing object for the set of categories covered by the Tracing object.
+tracing.disable()#
+Disables this Tracing object.Only trace event categories not covered by other enabled Tracing objects and not specified by the --trace-event-categories flag will be disabled.
 
 - [x] How will you debug an application in Node.js?
-- **Explain:**
-- **Use:**
-- **Example:**
+- **Explain:** Debugging allows to identify and remove errors within our applications.
+- **Use:** we would use a V8 inspector to debug. [node --inspect-brk index.js] 
+<!-- --inspect-brk means inspect breakpoint -->
+- **Example:** Using a Linter can help figure out the mistakes within our code.
 
 - [x] Difference between setImmediate() vs setTimeout()?
-- **Explain:**
+- **Explain:** 
+They are similar, but behave in different ways depending on when they are called.
+
 - **Use:**
+setImmediate() is designed to execute a script once the current poll phase completes. 
+
+setTimeout() schedules a script to be run after a minimum threshold in ms has elapsed.
+
 - **Example:**
+Example of setTimeout would run after a number of ms within a call stack.
+Example of setImmediate immediately runs the code.
 
 - [x] What is process.nextTick()?
-- **Explain:**
-- **Use:**
-- **Example:**
+- **Explain:** Defers the execution of a function until the next Event Loop Iteration.
+- **Use:** taking a callback function which is executed after completing the current iteration/tick of the event loop.
+- **Example:** for an event if a user logs into an app.
 
 - [x] What is package.json? What is it used for?
-- **Explain:**
-- **Use:**
-- **Example:**
+- **Explain:** It is a configuration file within our root directory for our app.
+- **Use:** It's used for our project's dependencies and scripts.
+- **Example:** 
+It holds our dependencies, scripts, repo, authors, main file, keywords, project description, contributors licenses, name and version or project.
 
 - [x] What is libuv?
-- **Explain:**
-- **Use:**
-- **Example:**
+- **Explain:** is a C library originally written for Node.js to abstract non-blocking I/O operations.
+- **Use:** It is an asynchronous library that forces an event driven programming.
+- **Example:**  If a program is querying the database, the CPU sits idle until the query is processed and the program stays at a halt, thereby causing wastage of system resources. To prevent this, libuv is used in Node.js which facilitates a non-blocking I/O.
 
 - [x] What are some of the most popular modules of Node.js?
-- **Explain:**
-- **Use:**
+- **Explain:** express, asyncjs, nodemon, mongodb, cloudinary
+- **Use:** these modules increase productivity and helps save time.
 - **Example:**
 
 - [x] What is EventEmitter in Node.js?
-- **Explain:**
-- **Use:**
-- **Example:**
-
+- **Explain:** is a module that facilitates communication/interaction between objects in Node. EventEmitter is at the core of Node asynchronous event-driven architecture. 
+- **Use:**  Many of Node's built-in modules inherit from EventEmitter including prominent frameworks like Express.js
+- **Example:** an example of listener count.
