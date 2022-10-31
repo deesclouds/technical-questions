@@ -156,9 +156,10 @@ Opposite of restaurant procedure. Think of placing foods items on shelf. Old ite
 
 - [x] What is a Hash Table?
 - **Explain:** also called hash map. a data structure that maps keys to values. 
-- **Use:**
-- **Example:**
+- **Use:** map the value of indexes in an array
+- **Example:**listing the values within stored positions within the array or hash table
 [!hash table][https://www.freecodecamp.org/news/hash-tables/]
+[!hash table][https://www.geeksforgeeks.org/hashing-data-structure/?ref=gcse]
 
 - [x] What is a Heap?
 - **Explain:**
