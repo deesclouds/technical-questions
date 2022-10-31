@@ -140,22 +140,25 @@ shift() {
 [!doubly linked list][https://javascript.plainenglish.io/doubly-linked-lists-with-javascript-9c20a9dc4fb3]
 
 - [x] What is a Queue?
-- **Explain:** defined as a linear data structure that is open at both ends and the operations are performed in First In First Our (FIFO) order.
+- **Explain:** defined as a linear data structure that is open at both ends and the operations are performed in First In First Out (FIFO) order.
 - **Use:** to handle multiple data, fast and flexible can be 
 - **Example:**
-waiting in line and execute time after time.
+Waiting in line and execute time after time. Think of a song queue. 
 [!queue][https://www.geeksforgeeks.org/queue-data-structure/?ref=gcse]
 
 - [x] What is a Stack?
 - **Explain:** linear data structure which addition or removal of element follows LIFO ( last in first out) and FILO (first in last out)
-- **Use:**
+- **Use:** Done using arrays and linked lists where the top position is tracked using a variable or header pointer respectively.
 - **Example:**
+Opposite of restaurant procedure. Think of placing foods items on shelf. Old items go in the back and the newer items in the front. 
 [!stack][https://www.geeksforgeeks.org/implementation-stack-javascript/]
+[!stack][https://www.techopedia.com/definition/9523/stack]
 
 - [x] What is a Hash Table?
-- **Explain:**
+- **Explain:** also called hash map. a data structure that maps keys to values. 
 - **Use:**
 - **Example:**
+[!hash table][https://www.freecodecamp.org/news/hash-tables/]
 
 - [x] What is a Heap?
 - **Explain:**
