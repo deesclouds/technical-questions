@@ -29,12 +29,12 @@ countDown(4);
 - **Explain:** the study of type systems such as integers and strings, depend on practical issues of computer computer architecture, compiler implementation, and language design. can be used as a safety feature, organizational device and a tool for program analysis.
 - **Use:** relates to programming languages. can be used for specification and modularization
 - **Example:** machine learning-style module is a dependent sum, while polymorphic type can be seen as a dependent product.
-
+[!types][]
 - [x] What are data structures?
 - **Explain:** used for storing and organizing data. a way of arranging data on a computer to be accessed and updated efficiently.
 - **Use:** used for processing, retrieving and storing data.
 - **Example:** store a list of items having the same data-type using the array data structure.
-
+[!data structures][]
 - [x] What is an algorithm?
 - **Explain:** set of well-defined rules to solve a particular problem that takes in a set of inputs and produces the desired outputs. 
 - **Use:** best solution to solve a problem based on data storage to also improve the efficiency of a program.
@@ -42,7 +42,7 @@ countDown(4);
 
 - [x] What is scope / lexical scope in Javascript?
 - **Explain:** a scope is a boundary, region or environment.
-
+[!algorithm][]
 lexical scope means the value of a function can only be determined by the environment where it was created.
 - **Use:** variables can only be called within the block of code in which it was declared/created. to keep our code modular.
 - **Example:** 
