@@ -36,9 +36,9 @@ countDown(4);
 - **Example:** store a list of items having the same data-type using the array data structure.
 
 - [x] What is an algorithm?
-- **Explain:**
-- **Use:**
-- **Example:**
+- **Explain:** set of well-defined rules to solve a particular problem that takes in a set of inputs and produces the desired outputs. 
+- **Use:** best solution to solve a problem based on data storage to also improve the efficiency of a program.
+- **Example:** take two number inputs, add numbers using the '+' operator then displaying the result.
 
 - [x] What is scope / lexical scope in Javascript?
 - **Explain:**
