@@ -222,10 +222,11 @@ Use Cases of Dis-joint set Data Structure
 [!merge sort][https://en.wikipedia.org/wiki/Merge_sort]
 
 - [x] Demonstrate Quicksort and explain when you might use it?
-- **Explain:**
-- **Use:**
-- **Example:**
+- **Explain:** quick sort is a divide and conquer algorithm. it picks an element as a pivot and partitions the given array around the picked pivot.
+- **Use:** The sorting algorithm is used for information searching and as Quicksort is the fastest algorithm so it is widely used as a better way of searching. It is used everywhere where a stable sort is not needed. Quicksort is a cache-friendly algorithm as it has a good locality of reference when used for arrays.
 
+- **Example:** An example within Commercial Computing is used in various government and private organizations for the purpose of sorting various data like sorting files by name/date/price, sorting of students by their roll no., sorting of account profile by given id, etc.
+[!quick sort][https://www.geeksforgeeks.org/quick-sort/]
 
 
 
