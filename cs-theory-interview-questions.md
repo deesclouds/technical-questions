@@ -81,31 +81,76 @@ function getName() {
     ob3.add();
 </script>
 ```
+[!polymorphism][https://www.geeksforgeeks.org/polymorphism-in-javascript/?ref=gcse]
 
 - [x] What is encapsulation?
-- **Explain:**
-- **Use:**
-- **Example:**
+- **Explain:** is a way of restricting access to the inner workings of an object
+- **Use:** to hide data members and data functions or methods associated with an instantiated class or object
+- **Example:** building a firewall around the class by adding another layer of protection
 
 - [x] What is a Linked List?
-- **Explain:**
-- **Use:**
-- **Example:**
+- **Explain:** a linear data structure, consists of nodes where each node contains a data field and a reference(link) to the next node in the list.
+- **Use:** used for their efficient insertion and deletion and to implement stacks, queues, and other abstact data types
+- **Example:** index of(element)- returns the index of a given element if the element is in the list
+```
+// finds the index of element
+indexOf(element)
+{
+    var count = 0;
+    var current = this.head;
+ 
+    // iterate over the list
+    while (current != null) {
+        // compare each element of the list
+        // with given element
+        if (current.element === element)
+            return count;
+        count++;
+        current = current.next;
+    }
+ 
+    // not found
+    return -1;
+}
+```
+[!linkedlist][https://www.geeksforgeeks.org/data-structures/linked-list/]
+[!linkedlist-uses][https://brilliant.org/wiki/linked-lists/]
 
 - [x] What is a Doubly Linked List?
-- **Explain:**
-- **Use:**
+- **Explain:** similar to a singly linked list, it is a data structure that consists of notes.
+- **Use:** easier to implement than a singly linked list
 - **Example:**
+shift(removing a node from the beginning)
+```
+shift() {
+  if (this.length === 0) return undefined;
+  const temp = this.head;
+  if (this.length === 1) {
+    this.head = null;
+    this.tail = null;
+  } else {
+    this.head = temp.next;
+    this.head.prev = null;
+    temp.next = null;
+  }
+  this.length--;
+  return temp;
+}
+```
+[!doubly linked list][https://javascript.plainenglish.io/doubly-linked-lists-with-javascript-9c20a9dc4fb3]
 
 - [x] What is a Queue?
-- **Explain:**
-- **Use:**
+- **Explain:** defined as a linear data structure that is open at both ends and the operations are performed in First In First Our (FIFO) order.
+- **Use:** to handle multiple data, fast and flexible can be 
 - **Example:**
+waiting in line and execute time after time.
+[!queue][https://www.geeksforgeeks.org/queue-data-structure/?ref=gcse]
 
 - [x] What is a Stack?
-- **Explain:**
+- **Explain:** linear data structure which addition or removal of element follows LIFO ( last in first out) and FILO (first in last out)
 - **Use:**
 - **Example:**
+[!stack][https://www.geeksforgeeks.org/implementation-stack-javascript/]
 
 - [x] What is a Hash Table?
 - **Explain:**
