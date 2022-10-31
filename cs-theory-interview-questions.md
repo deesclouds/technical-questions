@@ -162,9 +162,9 @@ Opposite of restaurant procedure. Think of placing foods items on shelf. Old ite
 [!hash table][https://www.geeksforgeeks.org/hashing-data-structure/?ref=gcse]
 
 - [x] What is a Heap?
-- **Explain:**
-- **Use:**
-- **Example:**
+- **Explain:** special Tree-based data structure in which the tree is a complete binary tree
+- **Use:** to construct a priority queue. it's one of the fastest sorting algorithms.
+- **Example:** think of multiplication refactoring trees
 
 - [x] What is a Trie?
 - **Explain:**
