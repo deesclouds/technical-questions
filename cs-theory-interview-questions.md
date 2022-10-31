@@ -169,33 +169,42 @@ Opposite of restaurant procedure. Think of placing foods items on shelf. Old ite
 
 - [x] What is a Trie?
 - **Explain:** a data structure whose nodes store the letters of an alphabet
-- **Use:**
-- **Example:**
+- **Use:** a special data structure used to store stings that can be visualized like a graph
+- **Example:** A trie for keys "A", "to", "tea", "ted", "ten", "i", "in", and "inn"
+[!trie][https://www.hackerearth.com/practice/data-structures/advanced-data-structures/trie-keyword-tree/tutorial/]
 
 - [x] What is a Tree?
-- **Explain:**
-- **Use:**
-- **Example:**
+- **Explain:** a collection of entities called nodes. nodes are connected by edges. first node is called the root
+- **Use:** organize data hierarchically 
+- **Example:** databases, ie. github branches
+[!tree][https://www.freecodecamp.org/news/all-you-need-to-know-about-tree-data-structures-bceacb85490c/]
 
 - [x] What is a Binary Search Tree?
-- **Explain:**
-- **Use:**
-- **Example:**
+- **Explain:** allows for fast insertion, removal, and lookup of items while offering an efficient way to iterate them in sorted order.
+- **Use:** for searching algorithms
+- **Example:** A Self-Balancing Binary Search Tree used to maintain sorted stream of data. Suppose we are getting online orders placed and we want to maintain the live data (in RAM) in sorted order of prices. 
+[!binary search tree][https://www.geeksforgeeks.org/applications-of-bst/]
 
-- [x] What is a Disjoing Set?
-- **Explain:**
-- **Use:**
-- **Example:**
+- [x] What is a Disjoint Set?
+- **Explain:** two sets are called disjoint sets if they don't have any element in common, the in
+- **Use:** 
+Use Cases of Dis-joint set Data Structure
+1)It is used to keep track of connected component in an undirected graph. 2)It is used to detect cycles in the graph. 3)It is used to calculate the minimum spanning tree in Kruskal's algorithm. 4)It is used in Maze generation problems.
+- **Example:** 
+[!disjoint][https://www.geeksforgeeks.org/disjoint-set-data-structures/]
+[!disjoing][https://www.oodlestechnologies.com/blogs/understanding-disjoint-set-and-their-use-cases-in-computer-science/]
 
 - [x] What is a Bloom Filter?
-- **Explain:**
-- **Use:**
-- **Example:**
-
+- **Explain:** space-efficient probabilistic data structure 
+- **Use:** to test whether an element is a member of a set.
+- **Example:**checking availability of username is a set membership problem, where the set is the list of all registered username.
+[!boom filter][https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/]
 - [x] Demonstrate Bubble Sort and explain when you might use it?
-- **Explain:**
-- **Use:**
-- **Example:**
+- **Explain:** the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order.
+- **Use:** to sort small data sets in ascending and descending order
+- **Example:** a bubble sort algorithm is how the contact list on your phone is sorted in alphabetical order
+[!bubble sort][https://www.geeksforgeeks.org/bubble-sort/]
+[!bubble sort][https://www.indeed.com/career-advice/career-development/bubble-sorting]
 
 - [x] Demonstrate Insertion Sort and explain when you might use it?
 - **Explain:**
