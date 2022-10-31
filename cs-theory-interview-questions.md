@@ -53,9 +53,34 @@ function getName() {
 [!lexical/scope][https://dev.to/fleepgeek/i-would-try-to-explain-lexical-scope-in-plain-english-wish-me-luck-4j06]
 
 - [x] What is polymorphism?
-- **Explain:**
-- **Use:**
-- **Example:**
+- **Explain:** the same function with different signatures called many times. 
+- **Use:** use the same method name repeatedly, and reduce the number of functionalities that can be paired together.
+- **Example:** three function with the same name and different operations. (inheritance polymorphism)
+```
+<script>
+    class firstClass {
+        add() {
+            console.log("First Method")
+        }
+    }
+    class secondClass extends firstClass {
+        add() {
+            console.log(30 + 40);
+        }
+    }
+    class thirdClass extends secondClass {
+        add() {
+            console.log("Last Method")
+        }
+    }
+    var ob = new firstClass();
+    var ob2 = new secondClass();
+    var ob3 = new thirdClass();
+    ob.add();
+    ob2.add();
+    ob3.add();
+</script>
+```
 
 - [x] What is encapsulation?
 - **Explain:**
