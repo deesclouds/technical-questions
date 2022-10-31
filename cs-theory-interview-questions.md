@@ -207,13 +207,16 @@ Use Cases of Dis-joint set Data Structure
 [!bubble sort][https://www.indeed.com/career-advice/career-development/bubble-sorting]
 
 - [x] Demonstrate Insertion Sort and explain when you might use it?
-- **Explain:**
-- **Use:**
-- **Example:**
+- **Explain:**  simple sorting algorithm that sorts an array one item at a time. 
+- **Use:** sort items in ascending order based off their key value. works similar to the way you sort playing cards in your hands.
+- **Example:** One more real-world example of insertion sort is how tailors arrange shirts in a cupboard, they always keep them in sorted order of size and thus insert new shirts at the right position very quickly by moving other shirts forward to keep the right place for a new shirt.
+[!insertion sort][https://javarevisited.blogspot.com/2014/12/insertion-sort-algorithm-in-java-to-array-example.html]
+[!insertion sort][https://www.geeksforgeeks.org/insertion-sort/]
+[!insertion sort][https://www.geeksforgeeks.org/insertion-sort/#:~:text=Basically%2C%20Insertion%20sort%20is%20efficient,which%20are%20already%20partially%20sorted]
 
 - [x] Demonstrate Merge Sort and explain when you might use it?
-- **Explain:**
-- **Use:**
+- **Explain:** sorting algorithm based on the divide and conquer paradigm. the array is initially divided into two equal haves and then they are combined in a sorted manner.
+- **Use:** 
 - **Example:**
 
 - [x] Demonstrate Quicksort and explain when you might use it?
