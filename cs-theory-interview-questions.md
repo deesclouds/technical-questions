@@ -216,8 +216,10 @@ Use Cases of Dis-joint set Data Structure
 
 - [x] Demonstrate Merge Sort and explain when you might use it?
 - **Explain:** sorting algorithm based on the divide and conquer paradigm. the array is initially divided into two equal haves and then they are combined in a sorted manner.
-- **Use:** 
-- **Example:**
+- **Use:** to cut down a list into multiple sublists until each has only one item, then merges those sublists into a sorted list.
+- **Example:** An example of merge sort. First, divide the list into the smallest unit (1 element), then compare each element with the adjacent list to sort and merge the two adjacent lists. Finally, all the elements are sorted and merged.
+[!merge sort][https://www.geeksforgeeks.org/merge-sort/]
+[!merge sort][https://en.wikipedia.org/wiki/Merge_sort]
 
 - [x] Demonstrate Quicksort and explain when you might use it?
 - **Explain:**
