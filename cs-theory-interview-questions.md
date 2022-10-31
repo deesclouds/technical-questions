@@ -26,9 +26,9 @@ countDown(4);
 ```
 
 - [x] What are types?
-- **Explain:**
-- **Use:**
-- **Example:**
+- **Explain:** the study of type systems such as integers and strings, depend on practical issues of computer computer architecture, compiler implementation, and language design. can be used as a safety feature, organizational device and a tool for program analysis.
+- **Use:** relates to programming languages. can be used for specification and modularization
+- **Example:** machine learning-style module is a dependent sum, while polymorphic type can be seen as a dependent product.
 
 - [x] What are data structures?
 - **Explain:**
