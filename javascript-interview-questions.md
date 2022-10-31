@@ -3,23 +3,25 @@
 ## Questions:
 
 - [x] Explain event delegation.
-- **Explain:**
-- **Use:**
-- **Example:**
+- **Explain:** A pattern to handle events efficiently. 
+- **Use:** Instead of adding an event listener to each and every similar element, we can add an event listener to a parent element and call an event on a particular target using the . target property of the event object.
+- **Example:** Able to hide messages with delegation.
 
-- [x] Explain how this works in Javascript
-- **Explain:**
+- [x] Explain how this works in Javascript.
+- **Explain:** Efficiently handles events within one event listener.
 - **Use:**
-- **Example:**
+- **Example:** Create a tree that shows/hides node children on click.
 
-- [x] Explain how prototypal inheritance works
-- **Explain:**
-- **Use:**
-- **Example:**
+- [x] Explain how prototypal inheritance works?
+- **Explain:** Every object with its methods and properties contains an internal and hidden property known as Prototype.
+- **Use:** An object can inherit the properties and methods of another object.
+- **Example:** 
+<!-- using __proto__ to access and set the [[Prototype]] of "anObject"
+anObject.__proto__ = someotherObject -->
 
 - [x] What do you think of AMD vs CommonJS?
-- **Explain:**
-- **Use:**
+- **Explain:** AMD(Asynchronous Module Definition). 
+- **Use:** Common JS use exports to create exportable/public properties or methods. In AMD, we return any object which we want to make publicly available.
 - **Example:**
 
 - [x] Explain why the following doesn't work as an IIFE: function foo (){}();. What needs to be changed to properly make it an IIFE?
