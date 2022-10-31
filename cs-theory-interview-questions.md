@@ -31,9 +31,9 @@ countDown(4);
 - **Example:** machine learning-style module is a dependent sum, while polymorphic type can be seen as a dependent product.
 
 - [x] What are data structures?
-- **Explain:**
-- **Use:**
-- **Example:**
+- **Explain:** used for storing and organizing data. a way of arranging data on a computer to be accessed and updated efficiently.
+- **Use:** used for processing, retrieving and storing data.
+- **Example:** store a list of items having the same data-type using the array data structure.
 
 - [x] What is an algorithm?
 - **Explain:**
