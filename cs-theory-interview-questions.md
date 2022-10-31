@@ -41,9 +41,16 @@ countDown(4);
 - **Example:** take two number inputs, add numbers using the '+' operator then displaying the result.
 
 - [x] What is scope / lexical scope in Javascript?
-- **Explain:**
-- **Use:**
-- **Example:**
+- **Explain:** a scope is a boundary, region or environment.
+
+lexical scope means the value of a function can only be determined by the environment where it was created.
+- **Use:** variables can only be called within the block of code in which it was declared/created. to keep our code modular.
+- **Example:** 
+function getName() {
+  const myName = "Oluwatobi";
+  return myName;
+}
+[!lexical/scope][https://dev.to/fleepgeek/i-would-try-to-explain-lexical-scope-in-plain-english-wish-me-luck-4j06]
 
 - [x] What is polymorphism?
 - **Explain:**
