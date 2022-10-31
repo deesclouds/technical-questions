@@ -3,9 +3,27 @@
 ## Questions:
 
 - [x] What is recursion and give an example using Javascript?
-- **Explain:**
-- **Use:**
-- **Example:**
+- **Explain:** is a technique used to solve problems by creating a function that calls itself until your program achieves the desired result.
+- **Use:** to break down complex problems into the smallest solutions.
+- **Example:** print numbers to count down to the value to 1.
+```
+// program to count down numbers to 1
+function countDown(number) {
+    //display the number
+    console.log(number);
+
+    //decrease the number value
+    const newNumber = number -1;
+    
+    //base case
+    if (newNumber > 0){
+        countDown(newNumber);
+    }
+}
+countDown(4);
+
+[!programiz][https://www.programiz.com/javascript/recursion]
+```
 
 - [x] What are types?
 - **Explain:**
