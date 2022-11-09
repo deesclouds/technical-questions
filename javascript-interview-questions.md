@@ -20,34 +20,68 @@
 anObject.__proto__ = someotherObject -->
 
 - [x] What do you think of AMD vs CommonJS?
-- **Explain:** AMD(Asynchronous Module Definition). 
+- **Explain:** AMD(Asynchronous Module Definition) and CommonJS are both Javascript module loader. They accomplish the same task but works different.
 - **Use:** Common JS use exports to create exportable/public properties or methods. In AMD, we return any object which we want to make publicly available.
-- **Example:**
+- **Example:**  AMD is better for browser, hence the name "Asynchronous" as it loads each distinct module in async manner instead of loading in one large file. No extra steps needed works out of the box. CommonJS, is a standard, mostly used in servers and it loads modules synchronously, through extra step is required if you want your JS file size to be minified and compressed.
 
 - [x] Explain why the following doesn't work as an IIFE: function foo (){}();. What needs to be changed to properly make it an IIFE?
-- **Explain:**
-- **Use:**
-- **Example:**
-
+- **Explain:** An IIFE function is an immediate invoked function expression that doesn't wait for anything to be called. 
+- **Use:** avoiding pollution of global execution context and  to make variables private.
+- **Example:** hiding our api keys within a new variable and never calling the original variable.
+[!mdn][https://developer.mozilla.org/en-US/docs/Glossary/IIFE]
 - [x] What's the difference between a variable that is: null, undefined or undeclared? How would you go about checking for any of these states?
-- **Explain:**
-- **Use:**
+- **Explain:** null is pointing to nothing in memory.
+ 
+ undefined is a variable that has not been assigned any value. 
+ 
+ undeclared is a variable that has not been properly declared using const, var, or let.
+- **Use:** to determine that state of a variable. we can check the states with using a console.log();
 - **Example:**
+null
+x = null;
+
+undefined
+let x
+console.log(x + 'test')
+// x is undefined
+
+undeclared
+testVar = "This is undeclared"
+// as opposed to
+let testVar = "This is declared"
+[!devto][https://dev.to/nashmeyah/undefined-vs-null-vs-undeclared-9f8#:~:text=Null%20is%20pointing%20to%20nothing,const%2C%20var%2C%20or%20let]
 
 - [x] What is a closure, and how/why would you use one?
-- **Explain:**
-- **Use:**
-- **Example:**
+- **Explain:** Closures is a neat way to deal with scope issues. 
+- **Use:** We use closures because JavaScript it a function-level scope issues. Reasons we use closures is because Javascript is a a function-level scope rather than as with other languages, block-level scope and JavaScript is an asynchronous/ event driven language. Example that Closure is frequently used is jQuery (ex.click()).
+
+- **Example:**Its outer function has been executed and has returned a value, closures can still run. Closures store references to the outer function's variable, hence, we will always have access to the updated values of outer function's variables. Since we have access to the updated values of outer function's variables. We will have issue/bus when a variable changes via for loop, but this can be fixed by using IIFE, Immediately Invoked Function Expression.
+[!medium][https://rlynjb.medium.com/js-interview-question-what-is-a-closure-and-how-why-would-you-use-one-b6fd45ea95f6]
 
 - [x] Can you describe the main difference between a .forEach loop and a.map() loop and why you would pick one versus the other?
-- **Explain:**
-- **Use:**
+- **Explain:** forEach() - executed a provided function once for each array element
+map() - creates a new array with the results of calling a provided function on every element in the calling array
+- **Use:** map() executes a functions on each element inside of an array and returns a new array. forEach() executes a function on each element and returns a value of undefined.
 - **Example:**
+map [!mdn][https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map]
+const array1 = [1, 4, 9, 16];
 
-- [x] What's a typical use case for anonymous funtions?
-- **Explain:**
-- **Use:**
+// pass a function to map
+const map1 = array1.map(x => x * 2);
+
+console.log(map1);
+// expected output: Array [2, 8, 18, 32]
+
+foreach [!mdn][https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach]
+[!medium][https://kevbodyworks.medium.com/difference-between-a-foreach-loop-and-a-map-loop-767c936d5737]
+
+- [x] What's a typical use case for anonymous functions?
+- **Explain:** it's declared without an identifier
+- **Use:** passing an anonymous function to other function as its argument. in order to invoke and execute a function immediately after its declaration, creating an anonymous function is the best way.
 - **Example:**
+setTimeout(function () {  
+    console.log('Execute later after 1 second')  
+}, 1000);  
 
 - [x] How do you organize your code? (module pattern, classical inheritance?)
 - **Explain:**
